@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="8dp"
+    card_view:cardCornerRadius="5dp"
+    android:backgroundTint="#D6D0E1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/user_team_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text= "Nombre de usuario"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:textSize="16sp"/>
+            <TextView
+                android:id="@+id/user_team_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Correo electrónico"
+                android:layout_gravity="left"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_add_team"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#8F9790"
+            app:tint= "#434242"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <ImageButton
+            android:id="@+id/btn_del_team"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#434242"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

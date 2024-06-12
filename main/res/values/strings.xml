@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TeamBuild</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="name">Nombre</string>
+    <string name="lastname">Apellido</string>
+    <string name="password">Contraseña</string>
+    <string name="email">Correo electrónico</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="cargo_laboral">Cargo</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="dataRequired">Primero debes introducir todos los datos.</string>
+    <string name="nav_open">Abrir</string>
+    <string name="nav_close">Cerrar</string>
+    <string name="accept">Aceptar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="team">Equipo</string>
+    <string name="manager">Encargado</string>
+    <string name="address">Dirección</string>
+    <string name="date_string">Fecha</string>
+    <string name="status_string">Estado</string>
+    <string name="img_string">Imágenes</string>
+    <string name="file_string">Archivos</string>
+    <string name="phone_string">Teléfono</string>
+    <string name="work_name">Nombre de la obra</string>
+    <string name="new_emp_text">Introduce los datos del empleado</string>
+    <string name="new_wk_text">Introduce los datos de la obra</string>
+    <string name="user_not_found">No se ha encontrado ningún usuario.</string>
+    <string name="error">Se ha producido un error. Vuelve a intentarlo.</string>
+    <string name="type">Escribe un mensaje...</string>
+    <string name="nodata">No hay datos</string>
+    <string name="update">Actualizar</string>
+    <string name="myprofile">Mi perfil</string>
+    <string name="data_updated">Se han actualizado tus datos.</string>
+    <string-array name="Puestos">
+        <item>Jefe de obra</item>
+        <item>Albañil</item>
+        <item>Oficial 1</item>
+        <item>Oficial 2</item>
+        <item>Peón</item>
+    </string-array>
+    <string-array name="Estados">
+        <item></item>
+        <item>Nuevo</item>
+        <item>En proceso</item>
+        <item>Finalizado</item>
+    </string-array>
+</resources>
